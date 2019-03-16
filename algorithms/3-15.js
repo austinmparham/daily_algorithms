@@ -38,6 +38,7 @@ function comPool(arr){
 		}
         console.log(i +"--> left wall =" +left_wall+"right wall ="+right_wall)
 	}
+	total_units += (bowl * spaces)-space_total
 	console.log(total_units);
     
 }
